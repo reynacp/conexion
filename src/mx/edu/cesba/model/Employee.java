@@ -17,10 +17,24 @@ public class Employee {
     public String hiredate;
     
     
+    public void getDetails () {
+        
+       System.out.println("id:" + id);
+       System.out.println("firsName:" + firstName);
+       System.out.println("lastName:" + lastName);
+       System.out.println("age:" + age);
+       System.out.println("email:" + email);
+       System.out.println("phoneNumber:" + phoneNumber);
+       System.out.println("Salary:" + salary);
+       System.out.println("hiredate:" + hiredate);
+       
+       
+       
+    }
+    
+    
+} 
 
-    
-    
-}   
 
 
 
